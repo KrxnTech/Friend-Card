@@ -1,0 +1,9 @@
+.PINKPAGE {
+    height: 550px;
+    width: 655px;
+    background-color: #FFF5F7;
+    position: absolute;
+    top: 90px;
+    left: 445px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

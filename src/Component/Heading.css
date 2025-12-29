@@ -1,0 +1,77 @@
+.HEADINGBG {
+    position: absolute;
+    top: 120px;
+    left: 645px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+
+}
+
+.HEADING {
+    font-size: 30px;
+    color: #3A3A3A;
+    font-weight: 400;
+}
+
+.ARE {
+    position: absolute;
+    top: 180px;
+    left: 755px;
+    color: #3A3A3A;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.LIKESTAR {
+    position: absolute;
+    top: 190px;
+    left: 555px;
+    color: #C77DFF;
+    font-size: 80px;
+    font-family: "Hurricane", cursive;
+}
+
+.EMOJI_STAR_1 {
+    position: absolute;
+    top: 130px;
+    left: 520px;
+    font-size: 40px;
+}
+
+.EMOJI_STAR_2 {
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    font-size: 40px;
+}
+
+.EMOJI_STAR_3 {
+    position: absolute;
+    top: 165px;
+    left: 965px;
+    font-size: 50px;
+
+    display: inline-block;
+    transform-origin: bottom center;
+    animation: CROWNSHAKE 2s ease-in-out infinite;
+}
+
+@keyframes CROWNSHAKE {
+  0%   { transform: rotate(-15deg); }
+  50%  { transform: rotate(15deg); }
+  100% { transform: rotate(-15deg); }
+}
+
+
+
+
+.SHORTNOTE {
+    position: absolute;
+    top: 420px;
+    left: 500px;
+    font-size: 20px;
+    color: #555;
+    max-width: 450px;
+    text-align: center;
+    line-height: 1.5;
+}
